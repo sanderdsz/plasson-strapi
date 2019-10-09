@@ -1,0 +1,50 @@
+{
+  "connection": "default",
+  "collectionName": "obras",
+  "info": {
+    "name": "obras",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "logradouro": {
+      "type": "string"
+    },
+    "municipio": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "pais": {
+      "type": "string"
+    },
+    "codigoObra": {
+      "type": "string"
+    },
+    "numeroPedido": {
+      "type": "integer"
+    },
+    "aviarioLargura": {
+      "type": "integer"
+    },
+    "aviarioComprimento": {
+      "type": "integer"
+    },
+    "user": {
+      "model": "user",
+      "via": "obras",
+      "plugin": "users-permissions"
+    }
+  }
+}

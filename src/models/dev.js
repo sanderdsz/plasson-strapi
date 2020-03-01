@@ -2,7 +2,7 @@ const { Schema, model } = require('mongoose');
 
 const devSchema = new Schema(
 	{
-		nome: {
+		name: {
 			type: String,
 			required: true
 		},
@@ -14,7 +14,19 @@ const devSchema = new Schema(
 		avatar: {
 			type: String,
 			require: true
-		}
+		},
+		likes: [
+			{
+				type: Schema.Types.ObjectId,
+				ref: 'Dev'
+			}
+		],
+		dislikes: [
+			{
+				type: Schema.Types.ObjectId,
+				ref: 'Dev'
+			}
+		]
 	},
 	{
 		timestamps: true

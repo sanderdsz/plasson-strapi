@@ -6,7 +6,11 @@
 	"author": "sanderdsz <sanderdsz@gmail.com>",
 	"license": "MIT",
 	"scripts": {
-		"dev": "nodemon src/server.js"
+		"start": "node server.js",
+		"server": "nodemon src/server.js",
+		"client": "npm start --prefix client",
+		"clientinstall": "npm install",
+		"dev": "concurrently \"npm run server\" \"npm run client\""
 	},
 	"dependencies": {
 		"axios": "^0.19.2",

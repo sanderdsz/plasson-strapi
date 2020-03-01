@@ -6,7 +6,7 @@
 	"author": "sanderdsz <sanderdsz@gmail.com>",
 	"license": "MIT",
 	"scripts": {
-		"start": "node server.js",
+		"start": "node src/server.js",
 		"server": "nodemon src/server.js",
 		"client": "npm start --prefix frontend",
 		"clientinstall": "npm install",

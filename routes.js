@@ -6,10 +6,6 @@ const DevController = require('./controller/DevController');
 const LikeController = require('./controller/LikeController');
 const DislikeController = require('./controller/DislikeController');
 
-routes.get('/', (req, res) => {
-	return res.json('bem vindo à API do Tindev!');
-});
-
 routes.post('/devs', DevController.store);
 routes.get('/devs', DevController.index);
 

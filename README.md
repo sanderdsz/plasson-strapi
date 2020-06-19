@@ -9,7 +9,7 @@
     <img alt="Made by Sander" src="https://img.shields.io/badge/made%20by-sanderdsz-%2304D361">
   </a>
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/sanderdsz/ecoleta?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/sanderdsz/tindev?color=%2304D361">
 
   <img alt="Mobile" src="https://img.shields.io/badge/mobile-react--native-blue">
 

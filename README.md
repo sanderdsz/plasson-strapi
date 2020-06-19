@@ -1,5 +1,5 @@
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="300px" src=".github/logo.png">
+    <img alt="Logo" title="#logo" width="150px" src=".github/logo.png">
     <br><br>
     <b>Tindev it's like Tinder, but for developers.</b> 
 </h3>

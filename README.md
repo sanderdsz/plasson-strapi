@@ -32,13 +32,12 @@
 
 ## :bookmark: About
 
-The <strong>Ecoleta</strong> is a web and mobile app made to help our community to share and find recycle locations.
+The <strong>Tindev</strong> is a web and mobile app made to mockup Tinder, using the Github public API.
 
 ## :rocket: Tech Used
 
 This project was made with the following technologies:
 
-- [TypeScript](https://www.typescriptlang.org/)
 - [Node.js](https://nodejs.org/en/)
 - [ReactJS](https://reactjs.org/)
 - [React Native](https://reactnative.dev/)
@@ -49,35 +48,30 @@ This project was made with the following technologies:
 
   - It's **necessary** **[Node.js](https://nodejs.org/en/)**
   - You, **need** a package manager like **[NPM](https://www.npmjs.com/)** or **[Yarn](https://yarnpkg.com/)**.
-  - Then, it's **essencial** install **[Expo](https://expo.io/)**
 
 1. Clone the repo :
 
 ```sh
-  $ git clone https://github.com/sanderdsz/ecoleta.git
+  $ git clone https://github.com/sanderdsz/tindev.git
 ```
 
 2. Execute the app:
 
 ```sh
   # Install all dependencies
+  $ cd tindev
   $ npm install
 
   # Start the server API
-  $ cd ./sources/server
   $ npm run dev
 
-  # Run database seeds and migrations
-  $ npm run knex:migrate
-  $ npm run knex:seed
-
   # Start the web application
-  $ cd ./sources/web
-  $ npm start
+  $ cd ./sources/client
+  $ npm run start
 
   # Start the mobile application
   $ cd ./sources/mobile
-  $ npm start
+  $ react-native run-android
 ```
 
 ## :memo: License
